@@ -1,0 +1,221 @@
+﻿namespace AdotarAnimais
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            txtTitulo = new TextBox();
+            txtDescricao = new TextBox();
+            txtIdade = new TextBox();
+            BtnPublicar = new Button();
+            btnEditar = new Button();
+            btnPesquisar = new Button();
+            label4 = new Label();
+            lblId = new Label();
+            btnLimpar = new Button();
+            btnDeletar = new Button();
+            SuspendLayout();
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Arial", 9.75F, FontStyle.Bold);
+            label1.Location = new Point(38, 42);
+            label1.Name = "label1";
+            label1.Size = new Size(47, 16);
+            label1.TabIndex = 0;
+            label1.Text = "Título:";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Arial", 9.75F, FontStyle.Bold);
+            label2.Location = new Point(38, 85);
+            label2.Name = "label2";
+            label2.Size = new Size(73, 16);
+            label2.TabIndex = 1;
+            label2.Text = "Descrição:";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Arial", 9.75F, FontStyle.Bold);
+            label3.Location = new Point(38, 127);
+            label3.Name = "label3";
+            label3.Size = new Size(47, 16);
+            label3.TabIndex = 2;
+            label3.Text = "Idade:";
+            // 
+            // txtTitulo
+            // 
+            txtTitulo.Font = new Font("Arial", 12F);
+            txtTitulo.Location = new Point(136, 38);
+            txtTitulo.MaxLength = 45;
+            txtTitulo.Name = "txtTitulo";
+            txtTitulo.Size = new Size(286, 26);
+            txtTitulo.TabIndex = 1;
+            // 
+            // txtDescricao
+            // 
+            txtDescricao.Font = new Font("Arial", 12F);
+            txtDescricao.Location = new Point(136, 82);
+            txtDescricao.MaxLength = 100;
+            txtDescricao.Name = "txtDescricao";
+            txtDescricao.Size = new Size(286, 26);
+            txtDescricao.TabIndex = 2;
+            // 
+            // txtIdade
+            // 
+            txtIdade.Font = new Font("Arial", 12F);
+            txtIdade.Location = new Point(136, 127);
+            txtIdade.MaxLength = 45;
+            txtIdade.Name = "txtIdade";
+            txtIdade.Size = new Size(286, 26);
+            txtIdade.TabIndex = 3;
+            // 
+            // BtnPublicar
+            // 
+            BtnPublicar.FlatStyle = FlatStyle.Flat;
+            BtnPublicar.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            BtnPublicar.Location = new Point(12, 218);
+            BtnPublicar.Name = "BtnPublicar";
+            BtnPublicar.Size = new Size(112, 32);
+            BtnPublicar.TabIndex = 4;
+            BtnPublicar.Text = "Publicar";
+            BtnPublicar.UseVisualStyleBackColor = true;
+            BtnPublicar.Click += BtnPublicar_Click;
+            // 
+            // btnEditar
+            // 
+            btnEditar.FlatStyle = FlatStyle.Flat;
+            btnEditar.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnEditar.Location = new Point(429, 173);
+            btnEditar.Name = "btnEditar";
+            btnEditar.Size = new Size(71, 27);
+            btnEditar.TabIndex = 5;
+            btnEditar.Text = "Editar";
+            btnEditar.UseVisualStyleBackColor = true;
+            btnEditar.Click += btnEditar_Click;
+            // 
+            // btnPesquisar
+            // 
+            btnPesquisar.FlatStyle = FlatStyle.Flat;
+            btnPesquisar.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnPesquisar.Location = new Point(136, 218);
+            btnPesquisar.Name = "btnPesquisar";
+            btnPesquisar.Size = new Size(112, 32);
+            btnPesquisar.TabIndex = 6;
+            btnPesquisar.Text = "Pesquisar";
+            btnPesquisar.UseVisualStyleBackColor = true;
+            btnPesquisar.Click += btnPesquisar_Click;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(10, 9);
+            label4.Name = "label4";
+            label4.Size = new Size(68, 15);
+            label4.TabIndex = 7;
+            label4.Text = "Anúncio Id:";
+            // 
+            // lblId
+            // 
+            lblId.AutoSize = true;
+            lblId.Location = new Point(84, 2);
+            lblId.Name = "lblId";
+            lblId.Size = new Size(0, 15);
+            lblId.TabIndex = 8;
+            // 
+            // btnLimpar
+            // 
+            btnLimpar.FlatStyle = FlatStyle.Flat;
+            btnLimpar.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnLimpar.Location = new Point(429, 12);
+            btnLimpar.Name = "btnLimpar";
+            btnLimpar.Size = new Size(71, 27);
+            btnLimpar.TabIndex = 9;
+            btnLimpar.Text = "Limpar";
+            btnLimpar.UseVisualStyleBackColor = true;
+            btnLimpar.Click += btnLimpar_Click;
+            // 
+            // btnDeletar
+            // 
+            btnDeletar.FlatStyle = FlatStyle.Flat;
+            btnDeletar.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnDeletar.Location = new Point(259, 218);
+            btnDeletar.Name = "btnDeletar";
+            btnDeletar.Size = new Size(112, 32);
+            btnDeletar.TabIndex = 10;
+            btnDeletar.Text = "Deletar";
+            btnDeletar.UseVisualStyleBackColor = true;
+            btnDeletar.Click += btnDeletar_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(772, 555);
+            Controls.Add(btnDeletar);
+            Controls.Add(btnLimpar);
+            Controls.Add(lblId);
+            Controls.Add(label4);
+            Controls.Add(btnPesquisar);
+            Controls.Add(btnEditar);
+            Controls.Add(BtnPublicar);
+            Controls.Add(txtIdade);
+            Controls.Add(txtDescricao);
+            Controls.Add(txtTitulo);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Anuncio";
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private TextBox txtTitulo;
+        private TextBox txtDescricao;
+        private TextBox txtIdade;
+        private Button BtnPublicar;
+        private Button btnEditar;
+        private Button btnPesquisar;
+        private Label label4;
+        private Label lblId;
+        private Button btnLimpar;
+        private Button btnDeletar;
+    }
+}
