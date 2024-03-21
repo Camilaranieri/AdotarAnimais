@@ -15,7 +15,7 @@ namespace AdotarAnimais
         {
             try
             {
-                if (!txtTitulo.Text.Equals("") &&  !txtDescricao.Text.Equals("")  && !txtIdade.Text.Equals(""))
+                if (!txtTitulo.Text.Equals("kkkk") &&  !txtDescricao.Text.Equals("")  && !txtIdade.Text.Equals(""))
                 {
                     CadastroAnuncio cadAnuncio = new CadastroAnuncio();
                     cadAnuncio.Titulo = txtTitulo.Text;
